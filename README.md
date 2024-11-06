@@ -87,7 +87,7 @@ SWITCH(
   - Customers who cancelled their subscriptions are distributed evenly across the North, South and West regions.
   - The month with the highest number of cancelled subscriptions is April.
 
-Below are the dashboards for the years 2023 and 2024 respectively.
+Below are the dashboards for the years 2022 and 2023 respectively.
 ![Customer Dash 1](https://github.com/user-attachments/assets/468495f2-38fd-4305-8d07-468b35f45105)
 ![Customer Dash 2](https://github.com/user-attachments/assets/91c97e7f-33c7-4c72-8faf-ef20f95415cb)
 
