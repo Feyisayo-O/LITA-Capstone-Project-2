@@ -47,12 +47,12 @@ This project analyzes customer data for a subscription service to identify segme
 - **Queries Executed**: 
   - Total number of customers from each region.
   - Most popular subscription type by the number of customers.
-  - Customers who canceled their subscription within 6 months.
+  - Customers who cancelled their subscription within 6 months.
   - Average subscription duration for all customers.
   - Customers with subscriptions longer than 12 months.
   - Total revenue by subscription type.
   - Top 3 regions by subscription cancellations.
-  - Total number of active and canceled subscriptions.
+  - Total number of active and cancelled subscriptions.
 - **Code example**: Total number of customers from each region.
   ```sql
   select Region, COUNT(CustomerID) as Total_Customers_Region from Customer Data group by Region
@@ -77,36 +77,36 @@ SWITCH(
  ```   
   - The dashboard included key customer segments, cancellations, and subscription trends.
   - A subscription start (year) slicer was used for the dashboard.
-![Power BI Customer](https://github.com/user-attachments/assets/3459cb46-41cc-401c-a2fb-69442db483f6)
+![Power BI CSA](https://github.com/user-attachments/assets/fa7262dc-d9a8-42fd-a702-0de9d0fd57ac)
 
 ## Key Insights
-  - In total, approximately $150M was generated in revenue from 75,000 customers.
+  - Approximately $150M was generated in revenue from 75,000 customers.
   - 33,750 customers cancelled their subscriptions while 41,250 customers renewed of which 26,250 are basic subscribers taking up the majority.
   - The Basic subscription type is the most popular among customers with 37,500 subscribers and approximately $75M generated in revenue (50% of the total).
   - Customers who cancelled their subscriptions are distributed evenly across Basic, Standard and Premium subscription types and the North, South and West regions.
-  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue bin and region were approximately equal.
+  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue groups and region were approximately equal.
   - The average subscription duration was 365 days (12 months).
   - The month with the highest number of cancelled and renewed subscriptions are April and July respectively.
   
-Below are the dashboards for the years 2022 and 2023, and their key insights respectively.
-![Power BI Customer 1](https://github.com/user-attachments/assets/f9507079-a2fe-40db-ad04-e706f7bc5f9b)
+Below are the dashboards for 2022 and 2023, and their key insights respectively.
+![Power BI CSA 1](https://github.com/user-attachments/assets/9402df1d-1acb-4b36-8d74-ff7ee6fac081)
 
 For the year 2022,
-  - In total, approximately $90M was generated in revenue from 45,000 customers.
+  - Approximately $90M was generated in revenue from 45,000 customers.
   - 18,750 customers cancelled their subscriptions while 26,250 customers renewed of which 18,750 are basic subscribers taking up the majority.
   - The Basic subscription type is the most popular among customers with 22,500 subscribers and approximately $45M generated in revenue (50% of the total).
   - The regions with the highest number of cancelled and renewed subscriptions are the South (11,250) and East (11,250) regions respectively
-  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue bin and region were approximately equal.
+  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue groups and region were approximately equal.
   - The average subscription duration was 365 days (12 months).
   
-![Power BI Customer 2](https://github.com/user-attachments/assets/242ecd2b-64d0-4c20-8f69-a3967550d161)
+![Power BI CSA 2](https://github.com/user-attachments/assets/7a63e2f1-699a-4482-9e8a-085490ab36e7)
 
 For the year 2023,
-  - In total, approximately $60M was generated in revenue from 30,000 customers.
+  - Approximately $60M was generated in revenue from 30,000 customers.
   - 15,000 customers cancelled their subscriptions while 15,000 customers renewed.
   - The Basic subscription type is the most popular among customers with 15,000 subscribers and approximately $30M generated in revenue (50% of the total).
   - The North and West regions had an equal number of cancelled subscriptions (7500). The East and South regions had an equal number of renewed subscriptions (7500).
-  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue bin and region were approximately equal.
+  - The customer value segments in terms of revenue and region i.e. total number of customers by revenue groups and region were approximately equal.
   - The average subscription duration was 366 days (12 months).
 
 
